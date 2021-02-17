@@ -6,7 +6,7 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors({
-    origin:"https://gifted-shannon-b32b53.netlify.app"
+    origin:"http://127.0.0.1:5500"
 }))
 
 const mongodb = require("mongodb");
